@@ -1,0 +1,232 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#navbar-intro {
+  background-color: #e3a51e;
+}
+
+#navbar-intro .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar-intro .container .li-element {
+  display: none;
+  background-color: aliceblue;
+}
+
+#navbar-intro .container .main-li {
+  position: relative;
+}
+
+#navbar-intro .container .main-li:hover .li-element {
+  position: absolute;
+  display: block;
+}
+
+.nav-intro-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-intro-right * {
+  list-style: none;
+  text-decoration: none;
+}
+
+#navbar {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: aliceblue;
+}
+
+#navbar .main-navbar .main-menu {
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#navbar .main-navbar .navbar-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .main-navbar .navbar-menu {
+  width: 100%;
+}
+
+#navbar .main-navbar .assets-ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#navbar .main-navbar .assets-ul li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.slider-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 500px;
+  width: 1000px;
+}
+
+.slider .slider-item {
+  height: 400px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider .slider-item .slider-content {
+  width: 50%;
+  padding: 50px;
+}
+
+.slider .slider-item .slider-content * {
+  color: white;
+}
+
+#page-asstes .card-item {
+  background-color: #fcedda;
+  padding: 30px;
+}
+
+#page-asstes .card-item p {
+  margin-bottom: 0px;
+}
+
+#page-asstes .col-4 {
+  padding: 30px;
+}
+
+#ourProduct .ourProduct-head {
+  text-align: center;
+}
+
+#ourProduct .product-area {
+  border: 1px solid #e7e7e7;
+  padding: 10px;
+}
+
+#ourProduct .produc-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+#ourProduct #zoom {
+  width: 300px;
+  height: 300px;
+  -webkit-transition: -webkit-transform ease-in-out 0.3s;
+  transition: -webkit-transform ease-in-out 0.3s;
+  transition: transform ease-in-out 0.3s;
+  transition: transform ease-in-out 0.3s, -webkit-transform ease-in-out 0.3s;
+}
+
+#ourProduct .product-area:hover #zoom {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#ourProduct .product-area:hover {
+  border: 1px solid #ffe7c8;
+}
+
+#ourProduct .product-content {
+  text-align: center;
+}
+
+#sale-zona {
+  margin-top: 70px;
+}
+
+#sale-zona .sale-item {
+  overflow: hidden;
+  height: 200px;
+}
+
+#sale-zona img {
+  z-index: -1;
+  width: 100%;
+}
+
+#sale-zona .sale-content {
+  margin-left: 50px;
+  margin-top: -30%;
+}
+
+#sale-zona .col-md-6 {
+  padding: 0px;
+}
+
+#top-seller {
+  margin: 70px 0px;
+}
+
+#top-seller .top-seller-head {
+  text-align: center;
+}
+
+#top-seller .top-seller-img {
+  border: 1px solid red;
+}
+
+#top-seller .top-seller-img img {
+  height: 200px;
+}
